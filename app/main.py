@@ -16,6 +16,7 @@ def get_db():
     finally:
         db.close()
 
+# pendiente v1
 
 
 @app.post("/users/", response_model=schemas.User)
