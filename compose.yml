@@ -19,7 +19,7 @@ services:
       - "--entryPoints.websecure.address=:443"
 
       - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
-      - "--certificatesresolvers.myresolver.acme.email=cchaati2101@iesromerovargas.com"
+      - "--certificatesresolvers.myresolver.acme.email=cchaati2101@fp.iesromerovargas.com"
       - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
       
       ## La línea comentada --certificatesresolvers.myresolver.acme.caserver apunta al entorno de pruebas de ## Let's Encrypt. Esto es útil para evitar límites de emisión durante las pruebas.
