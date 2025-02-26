@@ -19,6 +19,7 @@ def get_db():
 # pendiente v1
 # pendiente v2
 # pendiente v3
+# pendiente v4
 
 
 @app.post("/users/", response_model=schemas.User)
